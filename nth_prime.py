@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-Single-file implementation of n-th prime computation:
-
-- Willans-style method using a Wilson-based primality test (very slow).
-- Fast method using a Sieve of Eratosthenes.
-
-Designed to run easily in GitHub Codespaces or any Python 3 environment.
-"""
-
 import argparse
 import math
 from typing import Optional
